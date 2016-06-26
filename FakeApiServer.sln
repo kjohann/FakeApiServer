@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25402.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6888C6EF-A2D8-494E-98E2-3FFC0DC4E224}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9BBE8B1F-5E82-4E3F-9944-49272F3D3847}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FakeApiServer", "src\FakeApiServer\FakeApiServer.xproj", "{773AEDB4-FF6C-4BB7-B74B-88325CC6D6AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{773AEDB4-FF6C-4BB7-B74B-88325CC6D6AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773AEDB4-FF6C-4BB7-B74B-88325CC6D6AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773AEDB4-FF6C-4BB7-B74B-88325CC6D6AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773AEDB4-FF6C-4BB7-B74B-88325CC6D6AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{773AEDB4-FF6C-4BB7-B74B-88325CC6D6AB} = {6888C6EF-A2D8-494E-98E2-3FFC0DC4E224}
+	EndGlobalSection
+EndGlobal
